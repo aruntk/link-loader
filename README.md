@@ -14,6 +14,11 @@ npm i -D link-loader
 }
 ``````
 
+in index.html use this as 
+
+```html
+<link rel="import" href="my-html-file.html">
+```
 
 ### Like it?
 
