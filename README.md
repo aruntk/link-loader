@@ -25,6 +25,7 @@ in index.html use this as
 1. Link import support
 2. You can write es6 inside html
 3. Uses [parse5](https://github.com/inikulin/parse5) which parses HTML the way the latest version of your browser does. Does not use any regex to parse html.
+4. Does not replace bound properties used in webcomponents. ie. `<img src="{{prop}}">` remains untouched.
 
 ### Like it?
 
