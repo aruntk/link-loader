@@ -1,3 +1,7 @@
+<h1> Link loader for webcomponents and polymer </h1>
+
+DEMO - https://github.com/aruntk/link-loader-demo
+
 <h2 align="center">Installation</h2>
 
 ```sh
@@ -17,7 +21,7 @@ npm i -D link-loader
 in index.html use this as 
 
 ```html
-<link rel="import" href="my-html-file.html">
+<link rel="import" href="dist/path/my-html-file.html">
 ```
 
 <h2 align="center">Advantages over html-loader</h2>
